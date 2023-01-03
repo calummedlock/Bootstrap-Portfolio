@@ -4,6 +4,7 @@
 
 :root {
   --myblue: #385988;
+  --myblue-RGB: 56, 89, 136;
 }
 
 /*****************************/
@@ -35,4 +36,13 @@
 
 .bg-myblue {
   background: var(--myblue) !important;
+}
+
+/*****************************/
+/* HERO SECTION */
+/*****************************/
+
+#hero {
+  background: linear-gradient(90deg, rgba(var(--myblue-RGB), 0.7), rgba(var(--myblue-RGB), 0.3)),  url("../images/02-hero-bg.jpg");
+  background-size: cover;
 }
