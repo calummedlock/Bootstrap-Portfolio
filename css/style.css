@@ -31,6 +31,19 @@
   scale: 1.1;
 }
 
+/* changes the colour of primary button and adds transition property with hover effect and box shadow */
+
+a.btn.btn-primary {
+  background-color: var(--myblue);
+  transition: ease-in-out 0.3s;
+  border: 0;
+}
+
+a.btn.btn-primary:hover {
+  scale: 1.1;
+  box-shadow: 0px 1px 4px rgba(var(--bs-dark-rgb), 0.7);
+}
+
 /*****************************/
 /* CUSTOM COLOUR CLASSES */
 /*****************************/
