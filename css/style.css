@@ -22,11 +22,11 @@
 
 /* adds the transition effect to the navbar links */
 
-.navbar a {
+.navbar a, footer a {
   transition: ease-in-out 0.3s;
 }
 
-.navbar a:hover {
+.navbar a:hover, footer a:hover {
   color: var(--bs-navbar-brand-color);
   scale: 1.1;
 }
@@ -64,4 +64,12 @@ a.btn.btn-primary:hover {
   background: linear-gradient(90deg, rgba(var(--myblue-RGB), 0.7), rgba(var(--myblue-RGB), 0.3)),  url("../images/02-hero-bg.jpg");
   background-size: cover;
   height: 40vh;
+}
+
+/*****************************/
+/* FOOOTER */
+/*****************************/
+
+footer a {
+  color: var(--bs-navbar-color); /* Ensures that the links is readable against the dark background in the footer */
 }
