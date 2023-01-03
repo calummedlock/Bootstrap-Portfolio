@@ -1,3 +1,7 @@
+/*****************************/
+/* CUSTOM COLOUR VARIABLES */
+/*****************************/
+
 :root {
   --myblue: #385988;
 }
@@ -14,7 +18,7 @@
   --bs-navbar-color: rgba(var(--bs-navbar-brand-color), 0.65);
 }
 
-/* adds the transition effect tp the navbar links */
+/* adds the transition effect to the navbar links */
 
 .navbar a {
   transition: ease-in-out 0.3s;
@@ -24,6 +28,10 @@
   color: var(--bs-navbar-brand-color);
   scale: 1.1;
 }
+
+/*****************************/
+/* CUSTOM COLOUR CLASSES */
+/*****************************/
 
 .bg-myblue {
   background: var(--myblue) !important;
