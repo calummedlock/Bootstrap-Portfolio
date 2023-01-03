@@ -39,10 +39,6 @@ a.btn.btn-primary {
   border: 0;
 }
 
-a.btn.btn-primary:hover {
-  scale: 1.1;
-  box-shadow: 0px 1px 4px rgba(var(--bs-dark-rgb), 0.7);
-}
 
 /*****************************/
 /* CUSTOM COLOUR CLASSES */
@@ -65,6 +61,24 @@ a.btn.btn-primary:hover {
   background-size: cover;
   height: 40vh;
 }
+
+/*****************************/
+/* PORTFOLIO SECTION */
+/*****************************/
+
+/* This makes the cards use the grid system. To minimise the use of media queries, I've used only one query for screens bigger than 768px */
+
+.card-deck {
+  display: grid;
+  grid-gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .card-deck {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 
 /*****************************/
 /* FOOOTER */
