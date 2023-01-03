@@ -1,0 +1,30 @@
+:root {
+  --myblue: #385988;
+}
+
+/*****************************/
+/* BOOTSTRAP OVERRIDES */
+/*****************************/
+
+/* Changes the colour for the "navbar brand colour" */
+
+.navbar {
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-active-color: var(--bs-navbar-brand-color);
+  --bs-navbar-color: rgba(var(--bs-navbar-brand-color), 0.65);
+}
+
+/* adds the transition effect tp the navbar links */
+
+.navbar a {
+  transition: ease-in-out 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--bs-navbar-brand-color);
+  scale: 1.1;
+}
+
+.bg-myblue {
+  background: var(--myblue) !important;
+}
