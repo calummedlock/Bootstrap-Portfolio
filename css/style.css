@@ -45,4 +45,5 @@
 #hero {
   background: linear-gradient(90deg, rgba(var(--myblue-RGB), 0.7), rgba(var(--myblue-RGB), 0.3)),  url("../images/02-hero-bg.jpg");
   background-size: cover;
+  height: 40vh;
 }
