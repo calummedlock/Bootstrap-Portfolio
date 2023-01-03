@@ -84,6 +84,13 @@ a.btn-primary:hover {
   }
 }
 
+/*****************************/
+/* ABOUT SECTION */
+/*****************************/
+
+#about img {
+  border-radius: 50%; /* makes the profile picture circular */
+}
 
 /*****************************/
 /* FOOOTER */
