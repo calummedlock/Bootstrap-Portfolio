@@ -39,6 +39,11 @@ a.btn.btn-primary {
   border: 0;
 }
 
+a.btn-primary:hover {
+  scale: 1.1;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.6);
+}
+
 
 /*****************************/
 /* CUSTOM COLOUR CLASSES */
