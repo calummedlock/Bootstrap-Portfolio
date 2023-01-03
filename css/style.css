@@ -5,6 +5,7 @@
 :root {
   --myblue: #385988;
   --myblue-RGB: 56, 89, 136;
+  --mylightcolour: #F0F5FA;
 }
 
 /*****************************/
@@ -36,6 +37,10 @@
 
 .bg-myblue {
   background: var(--myblue) !important;
+}
+
+.bg-mylightcolour {
+  background: var(--mylightcolour) !important;
 }
 
 /*****************************/
